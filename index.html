@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>simulation</title>
+    <style media="screen">
+      #canvas{
+        border:1px solid black;
+        padding:0px;
+        visibility: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <canvas id="canvas" width="600" height="600"></canvas>
+    <br>
+    <label for="r">rows</label>
+    <input id="r" type="text" name="" value="60">
+    <br>
+    <label for="c">column</label>
+
+    <input id="c" type="text" name="" value="60">
+    <br>
+    <label for="w">width</label>
+
+    <input id="w" type="text" name="" value="10">
+    <br>
+    <button type="button" name="button" onclick="update();">update</button>
+    <button type="submit" name="button" onclick="startSimulation();">Start/Pause</button>
+<script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
